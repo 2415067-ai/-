@@ -1,113 +1,117 @@
 
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>２回感想</title>
+  <title>サロン・ド・ロルロージュ</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
-      background: linear-gradient(#f9f3e7, #f3e6d0); /* 淡いレトロ背景 */
-      font-family: 'Yu Mincho', 'Hiragino Mincho ProN', serif;
-      color: #4b372e;
-      background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* 紙風テクスチャ */
+      font-family: "Yu Mincho", "Hiragino Mincho Pro", serif;
+      background-image: url('https://cdn.pixabay.com/photo/2016/11/21/14/20/brick-wall-1846864_960_720.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #2c2c2c;
     }
 
-    .container {
-      max-width: 800px;
-      margin: 60px auto;
-      padding: 30px;
-      background-color: rgba(255, 255, 255, 0.92);
-      border: 2px solid #b5936f;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(80, 60, 40, 0.2);
-    }
-
-    img {
-      width: 100%;
-      max-height: 400px;
-      object-fit: cover;
-      border: 1px solid #bba28a;
-      margin-bottom: 20px;
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.88);
+      padding: 3rem;
+      max-width: 880px;
+      margin: 4rem auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
     }
 
     h1 {
-      font-size: 2.2rem;
-      border-bottom: 2px solid #b5936f;
-      padding-bottom: 8px;
-      margin-bottom: 15px;
+      font-size: 2.6rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #4b2e2e;
     }
 
     p {
-      font-size: 1.05rem;
+      font-size: 1.1rem;
       line-height: 1.8;
-      margin: 8px 0;
     }
 
-    .label {
-      font-weight: bold;
-      color: #7a4d2d;
+    .section {
+      margin-top: 3rem;
     }
 
-    .back-link {
-      display: inline-block;
-      margin-top: 30px;
-      font-size: 1rem;
-      color: #6c3e26;
-      text-decoration: none;
-      border-bottom: 1px dotted #6c3e26;
+    .section h2 {
+      font-size: 1.6rem;
+      color: #7b4c3f;
+      border-bottom: 1px solid #b8896e;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
     }
 
-    .back-link:hover {
-      text-decoration: underline;
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      padding: 0.4rem 0;
     }
   </style>
 </head>
 <body>
-
-  <div class="container">
-    <h1>２回感想</h1>
-    
-     <div class="box">
-    <marquee scrollamount="8" bgcolor="#84C98B" style="color: white; font-size: 20px;">
-      🐻いらっしゃーい！！君は１番目のお客様！！🐻
-    </marquee>
+  <div class="overlay">
+    <h1>喫茶 サロン・ド・ロルロージュ</h1>
     <p>
-      著者標目リンク	竹之内, 禎 (1974-)||タケノウチ, タダシ <AU00126221>
-著者標目リンク	山口, 洋
-ヤマグチ, ヒロシ <>
-著者標目リンク	西田, 洋平||ニシダ, ヨウヘイ <AU00201097>
-分類標目	資料の収集・整理・保管 NDC8:014
-分類標目	資料の収集．資料の整理．資料の保管 NDC9:014
-分類標目	情報資源の収集・組織化・保存 NDC10:014
-件名標目等	資料目録法||シリョウモクロクホウ
-件名標目等	資料分類法||シリョウブンルイホウ
-件名標目等	資料組織化||シリョウソシキカ
-
-       <br>著者標目リンク	田窪, 直規 (1958-)||タクボ, ナオキ <AU00110815>
-著者標目リンク	飯野, 勝則(1972-)||イイノ, カツノリ <AU00183812>
-著者標目リンク	小林, 康隆(1953-)||コバヤシ, ヤスタカ <AU00166827>
-著者標目リンク	原田, 智子||ハラダ, トモコ <AU00110824>
-著者標目リンク	山崎, 久道||ヤマザキ, ヒサミチ <AU00128132>
-著者標目リンク	渡邊, 隆弘 (1962-)||ワタナベ, タカヒロ <AU00138201>
-分類標目	資料の収集・整理・保管 NDC8:014
-分類標目	資料の収集．資料の整理．資料の保管 NDC9:014
-分類標目	情報資源の収集・組織化・保存 NDC10:014
-分類標目	図書館．図書館情報学 NDC10:010.8
-件名標目等	資料目録法||シリョウモクロクホウ
-件名標目等	資料分類法||シリョウブンルイホウ
-
-       <br>著者標目リンク	榎本, 裕希子(1974-)||エノモト, ユキコ <AU00168635>
-著者標目リンク	石井, 大輔||イシイ, ダイスケ <AU00196635>
-著者標目リンク	名城, 邦孝||ナシロ, クニタカ <AU00196636>
-分類標目	図書館 NDC8:010.8
-分類標目	図書館．図書館学 NDC9:010.8
-分類標目	図書館．図書館情報学 NDC10:010.8
-件名標目等	図書館情報学||トショカンジョウホウガク
+      レトロな時代の息吹を感じさせる、静かな隠れ家喫茶店。<br>
+      レンガ壁に囲まれたクラシックな空間で、香り高いコーヒーと手作りスイーツをお楽しみください。
     </p>
 
+    <div class="section">
+      <h2>メニュー</h2>
+      <ul>
+        <li>ネルドリップコーヒー – ¥500</li>
+        <li>ブレンドコーヒー（中深煎り） – ¥480</li>
+        <li>紅茶（ダージリン・アッサム） – ¥550</li>
+        <li>カフェオレ（ホット/アイス） – ¥600</li>
+        <li>アイスラテ – ¥620</li>
+        <li>季節のスコーンセット（紅茶付き） – ¥880</li>
+        <li>レモンスカッシュ – ¥550</li>
+        <li>自家製チョコレートケーキ – ¥600</li>
+        <li>苺のショートケーキ – ¥620</li>
+        <li>クラシックプリン – ¥480</li>
+        <li>パフェ（チョコ・バニラ） – ¥780</li>
+        <li>ホットサンド（ベーコンとチーズ） – ¥700</li>
+        <li>トーストセット（ジャム or バター） – ¥650</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>店内のご紹介</h2>
+      <p>
+        店内は大正〜昭和初期をイメージした内装で、赤茶のレンガ壁と木製の家具が落ち着いた雰囲気を演出しています。<br>
+        クラシック音楽の流れる静かな空間で、お一人様でも、お連れ様とでもゆったりとした時間をお過ごしいただけます。
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>サービス</h2>
+      <ul>
+        <li>全席禁煙／Free Wi-Fi完備</li>
+        <li>お持ち帰りメニューあり（ケーキ、スコーンなど）</li>
+        <li>季節限定メニューや展示イベントも開催</li>
+        <li>ご予約はお電話または店頭にて承ります</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>所在地・営業時間</h2>
+      <p>
+        〒123-4567 東京都レトロ区レンガ町1-1-1<br>
+        営業時間：10:00〜19:00（火曜定休）<br>
+        TEL：03-xxxx-xxxx
+      </p>
+    </div>
+  </div>
 </body>
 </html>
-# -
